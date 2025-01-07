@@ -11,32 +11,32 @@ import React from 'react'
 const Skills = () => {
     return (
         <div id="skills" className="wrapper mt-5 mb-12">
-            <div className="flex-container flex flex-col justify-center">
+            <div className="flex-container flex flex-col justify-center pr-8">
                 <div className="grid grid-cols-2 place-items-center lg:grid-cols-6">
                     <div className="tooltip tooltip-primary" data-tip="HTML">
                         <FaHtml5 className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-auto" value="80" max="100" />
+                    <progress className="progress progress-primary w-full" value="80" max="100" />
                     <div className="tooltip tooltip-primary" data-tip="Java">
                         <FaJava className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-auto" value="60" max="100" />
+                    <progress className="progress progress-primary w-full" value="60" max="100" />
                     <div className="tooltip tooltip-primary" data-tip="JavaScript">
                         <FaJsSquare className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-auto" value="70" max="100" />
+                    <progress className="progress progress-primary w-full" value="70" max="100" />
                     <div className="tooltip tooltip-primary" data-tip="Spring Framework">
                         <SiSpring className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-auto" value="35" max="100" />
+                    <progress className="progress progress-primary w-full" value="35" max="100" />
                     <div className="tooltip tooltip-primary" data-tip="Spring Boot">
                         <SiSpringboot className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-auto" value="40" max="100" />
+                    <progress className="progress progress-primary w-full" value="40" max="100" />
                     <div className="tooltip tooltip-primary" data-tip="React.js">
                         <FaReact className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-auto" value="40" max="100" />
+                    <progress className="progress progress-primary w-full" value="40" max="100" />
                 </div>
             </div>
 
