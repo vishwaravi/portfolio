@@ -16,27 +16,27 @@ const Skills = () => {
                     <div className="tooltip tooltip-primary" data-tip="HTML">
                         <FaHtml5 className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-56" value="80" max="100" />
+                    <progress className="progress progress-primary w-auto" value="80" max="100" />
                     <div className="tooltip tooltip-primary" data-tip="Java">
                         <FaJava className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-56" value="60" max="100" />
+                    <progress className="progress progress-primary w-auto" value="60" max="100" />
                     <div className="tooltip tooltip-primary" data-tip="JavaScript">
                         <FaJsSquare className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-56" value="70" max="100" />
+                    <progress className="progress progress-primary w-auto" value="70" max="100" />
                     <div className="tooltip tooltip-primary" data-tip="Spring Framework">
                         <SiSpring className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-56" value="35" max="100" />
+                    <progress className="progress progress-primary w-auto" value="35" max="100" />
                     <div className="tooltip tooltip-primary" data-tip="Spring Boot">
                         <SiSpringboot className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-56" value="40" max="100" />
+                    <progress className="progress progress-primary w-auto" value="40" max="100" />
                     <div className="tooltip tooltip-primary" data-tip="React.js">
                         <FaReact className="size-16 m-3 mr-20 ml-20 text-blue-600" />
                     </div>
-                    <progress className="progress progress-primary w-56" value="40" max="100" />
+                    <progress className="progress progress-primary w-auto" value="40" max="100" />
                 </div>
             </div>
 

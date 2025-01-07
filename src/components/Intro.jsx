@@ -12,7 +12,7 @@ const Intro = () => {
                         src={profileImg}
                         className="lg:max-w-sm rounded-lg shadow-2xl w-72" />
                     <div>
-                        <h1 className="lg:text-5xl font-bold text-4xl">
+                        <h1 className="lg:text-5xl font-bold text-3xl">
                             <div id='name-container' className='font-poppins flex flex-col items-center w-auto lg:items-start'>
                                 <p>Hi,</p>
                                 <p>I'am <span className='text-blue-500'>Vishwa</span></p>
