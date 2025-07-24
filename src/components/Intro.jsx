@@ -33,7 +33,7 @@ const Intro = () => {
                                 <FaMedium className='text-blue-600 size-8 m-2' />
                             </a>
                         </div>
-                        <a href='/Vishwa R Resume.pdf' download='Vishwa_R_resume.pdf'>
+                        <a href='/Vishwa_R_FSD.pdf' download='Vishwa_R_resume.pdf'>
                             <button className='mt-4 text-white bg-blue-700 p-3 hover:p-4 transition-all'>Download Resume</button>
                         </a>
                     </div>

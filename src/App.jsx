@@ -10,6 +10,7 @@ const App = () => {
         <a role="tab" className="tab text-lg" href="#me">Me</a>
         <a role="tab" className="tab text-lg" href="#projects">Projects</a>
         <a role="tab" className="tab text-lg" href="#skills">Skills</a>
+        <a role="tab" className="tab text-lg" href="#edu">Education</a>
       </div>
 
       <Intro />

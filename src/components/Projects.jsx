@@ -4,6 +4,34 @@ const Projects = () => {
     return (
         <div id="projects" className='wrapper mt-5'>
             <div className='projects flex flex-col items-center lg:flex-row lg:grid lg:grid-cols-2'>
+
+                <div className="card bg-primary text-primary-content w-auto m-5">
+                    <div className="card-body">
+                        <h2 className="card-title">Slinky - URL Shortener</h2>
+                        <p>A simple URL shortener built with React (Vite) and styled using Tailwind CSS. Easily convert long URLs into short, shareable links. </p>
+                        <div className="card-actions justify-end">
+                            <a href='https://github.com/vishwaravi/slinky' target='_blank'>
+                                <button className="btn">source code</button>
+                            </a>
+                            <a href='https://slinky-frontend.vercel.app/' target='_blank'>
+                                <button className='btn'>demo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card bg-primary text-primary-content w-auto m-5">
+                    <div className="card-body">
+                        <h2 className="card-title">Study Assistant</h2>
+                        <p>An intelligent study platform that helps students organize their learning materials, generate practice questions, create summaries of notes.</p>
+                        <div className="card-actions justify-end">
+                            <a href='https://github.com/vishwaravi/study-assistant' target='_blank'>
+                                <button className="btn">source code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="card bg-primary text-primary-content w-auto m-5">
                     <div className="card-body">
                         <h2 className="card-title">Twitter Spring-Boot</h2>
@@ -22,18 +50,6 @@ const Projects = () => {
                         <p>a social media app with React.js, featuring user authentication, post creation, commenting, and liking, integrated with a RESTful API</p>
                         <div className="card-actions justify-end">
                             <a href='https://github.com/vishwaravi/twitter-react' target='_blank'>
-                                <button className="btn">source code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card bg-primary text-primary-content w-auto m-5">
-                    <div className="card-body">
-                        <h2 className="card-title">2D Pixel Knight Game - GoDot</h2>
-                        <p>a 2D pixel art platformer game using the Godot Engine, Focused on smooth gameplay mechanics and engaging visual design.</p>
-                        <div className="card-actions justify-end">
-                            <a href='https://github.com/vishwaravi/pixel-knight' target='_blank'>
                                 <button className="btn">source code</button>
                             </a>
                         </div>
