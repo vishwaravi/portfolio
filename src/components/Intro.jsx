@@ -3,6 +3,7 @@ import profileImg from '../assets/mydp.jpg'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
+import { FaEnvelope } from "react-icons/fa";
 const Intro = () => {
     return (
         <div id='me' className='wrapper'>
@@ -20,7 +21,7 @@ const Intro = () => {
                             </div>
                         </h1>
                         <p className="py-6">
-                            a full-stack developer specializing in <span className='bg-blue-600 bg-opacity-40'>Spring Boot and React</span>. I build scalable, user-friendly applications by combining powerful back-end solutions with dynamic front-end experiences. Always eager to learn and grow, I strive to stay updated with the latest tools and trends. Outside of coding, I enjoy playing cricket and watching movies. Feel free to explore my portfolio and get in touch if you'd like to collaborate!
+                            I am a Computer Science undergraduate with hands-on experience in full-stack development using <span className='bg-blue-600 bg-opacity-40'>Spring Boot, React, and the MERN stack</span>. I am passionate about solving real-world problems and contributing to impactful projects, while continuously enhancing my technical and problem-solving skills in collaborative environments. Outside of coding, I enjoy playing cricket and watching movies. Feel free to explore my portfolio and get in touch if you'd like to collaborate!
                         </p>
                         <div id='links' className='links flex'>
                             <a href='https://github.com/vishwaravi' target='_blank' rel="noopener noreferrer">
@@ -31,6 +32,9 @@ const Intro = () => {
                             </a>
                             <a href='https://medium.com/@vishwaravi' target='_blank' rel="noopener noreferrer">
                                 <FaMedium className='text-blue-600 size-8 m-2' />
+                            </a>
+                            <a href='mailto:vishwaravi455@gmail.com' target='_blank' rel="noopener noreferrer">
+                                <FaEnvelope className='text-blue-600 size-8 m-2' />
                             </a>
                         </div>
                         <a href='/Vishwa_R_FSD.pdf' download='Vishwa_R_resume.pdf'>
